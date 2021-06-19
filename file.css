@@ -1,0 +1,14 @@
+#grid-container{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto auto auto;
+background-color: black;
+padding: 1px;
+}
+.square{
+  background-color:white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 15px;
+}
+.bomb{
+    background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png")
+}
